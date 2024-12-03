@@ -11,7 +11,7 @@ function FechaMensaje() {
 
 
     // Ejemplo de mensajes según fechas
-    if (fechaHoy.setHours(0, 0, 0, 0) < new Date(2024, 12, 3).setHours(0, 0, 0, 0)) {
+    if (fechaHoy.setHours(0, 0, 0, 0) < new Date(2024, 11, 3).setHours(0, 0, 0, 0)) {
         setMensaje('¡¡Estudia!!, para que te vaya super en la PAES, tu puedes y mucho animo, sabes que tienes todo mi apoyo, y avisame cualquier cosa. (Tendrás que volver el 03/12 para saber que más dice');
     } else if(mes === 12 && dia === 3 && año === 2024){
         setMensaje('La prueba de Lenguaje 😲, te irá super!, mucho mucho animo, eres la mejor');
